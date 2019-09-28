@@ -1,10 +1,12 @@
 body {
 font-family: Arial;
+text-align: center;
 }
 h1 {
-	color:teal;
-	
+	color: teal;
+		
 }
-text-centre {
-	text-align:centre;
+.header {
+	text-align: left;
 }
+
