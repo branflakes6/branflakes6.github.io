@@ -14,8 +14,12 @@ h2 {
 h3 {
 	color: #6F6F6F;
 }
-p {
-	padding: 14px;
+.compSci {
+	padding: 0px 14px 14px 14px;
+}
+.enviro
+{
+	padding: 80px 0px;
 }
 .cv {
 	font-size: 26px;
