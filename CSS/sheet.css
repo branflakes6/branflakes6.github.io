@@ -9,9 +9,13 @@ h1 {
 }
 h2 {
 	color: #6F6F6F;
+	padding: 14px;
 }
 h3 {
 	color: #6F6F6F;
+}
+p {
+	padding: 14px;
 }
 .cv {
 	font-size: 26px;
