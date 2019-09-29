@@ -1,8 +1,10 @@
+
 body {
 	font-family: Calibri;
 	display: block;
 	text-align: center;
 	width: 100%;
+	background-color: ;
 }
 h1 {
 	color:#666666;	
@@ -13,6 +15,10 @@ h2 {
 }
 h3 {
 	color: #6F6F6F;
+}
+.part {
+	color: #AA3F3F;
+	margin: 1000px 1000px;
 }
 .compSci {
 	padding: 0px 14px 14px 14px;
