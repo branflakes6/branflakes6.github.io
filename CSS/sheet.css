@@ -16,10 +16,8 @@ h2 {
 h3 {
 	color: #6F6F6F;
 }
-.part {
-	color: #AA3F3F;
-	margin: 1000px 1000px;
-}
+
+
 .compSci {
 	padding: 0px 14px 14px 14px;
 }
@@ -34,4 +32,6 @@ h3 {
 	margin: 10px;
 	padding: 4px 18px;
 	text-decoration: none;
+	border: #0D7EDC;
+	border-radius: 4px;
 }
