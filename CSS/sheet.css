@@ -1,11 +1,23 @@
 body {
-	font-family: Arial;
+	font-family: Calibri;
 	display: block;
 	text-align: center;
 	width: 100%;
 }
 h1 {
-	color: teal;	
+	color:#666666;	
 }
-
-
+h2 {
+	color: #6F6F6F;
+}
+h3 {
+	color: #6F6F6F;
+}
+.cv {
+	font-size: 26px;
+	background: #0D7EDC;
+	color: white;
+	margin: 10px;
+	padding: 4px 18px;
+	text-decoration: none;
+}
