@@ -41,6 +41,7 @@
 }
 
 .jumbotron {
+  padding: 30px 25px 25px 25px;
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
