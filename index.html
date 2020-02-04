@@ -1,50 +1,119 @@
 <!DOCTYPE html>
-<html>	
+<html>
 <head>
-	<title>Brian Farrell</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link href="./CSS/sheet.css" type="text/css" rel="stylesheet">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	  <link href="./CSS/sheet.css" type="text/css" rel="stylesheet">	
+	  <title>Brian Farrell</title>
+</head>
 <body>
-	
-	<div class="container">
-	 <div class="header clearfix">
-      
-        <h3 class="center">Brian Farrell</h3>
-      </div>	  
-	  <div class="jumbotron">
+
+    <div class="static-top container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+        <a class="navbar-brand" href="#">Brian Farrell</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Academics">Academics</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+  </div>
+
+  <div class ="top-IMG">
+  	<img src="./img/TCD.jpg">
+  </div>
+
+  <div class="container">
+	 <div class="jumbotron" id="About">
         <h1>Computer Science</h1>
         <p class="lead">I am a Second Year Computer Science student at Trinity College Dublin. I am a hard working self-motivated
 		student who achieved a First Class Honors in my Freshman year.</p>
         <p><a class="btn btn-primary btn-primary" target="_blank" href="./doc/CV.pdf" role="button">My CV</a></p>
       </div>
-      <!-- Example row of columns -->
-      <div class="row">
+   </div>
+
+   <div class="container">
+	<div class="row"> 
+	  <div style="margin: 0px 0px 25px 0px" class="col-md-4">
+	     <h2 class="text-center"> Connect4 </h2>
+	     <p> A game of Connect4 written in ARM Assembly Language, can be played verus another human player or against a rudimentary computer player </p>
+	     <div class="text-center">
+	     <a class="btn btn-primary btn-sm" target="_blank" href="https://github.com/branflakes6/ARM-Connect-4" role="button">View on GitHub</a>
+	     </div>
+	  </div>
+	  <div style="margin: 0px 0px 25px 0px" class="col-md-4">
+	    <h2 class="text-center"> Flow Control</h2>
+	    <p> A Telecomunications project for multiple machines on a network to communicate with each other by using Datagram Packets and Sockets </p>
+	    <div class="text-center">
+	    <a class="btn btn-primary btn-sm" target="_blank" href="https://github.com/branflakes6/Flow-Control" role="button">View on GitHub</a>
+		</div>
+	  </div>
+	  <div style="margin: 0px 0px 25px 0px" class="col-md-4">
+	    <h2 class="text-center"> TCD News</h2>
+	    <p> A Java Project built from scratch with 3 team mates for a first year programming project  </p>
+	    <div class="text-center" style="margin:60px 0px 0px 0px">
+	    <a class="btn btn-primary btn-sm" target="_blank" href="https://github.com/branflakes6/Programming-Project-TCD-News" role="button">View on GitHub</a>
+		</div>
+	  </div>
+	</div>
+	<div class="row"> 
+	  <div style="margin: 0px 0px 25px 0px" class="col-md-4">
+	     <h2 class="text-center"> Trocaire </h2> 
+	     <p> An ongoing project with Trocaire to develop an app that will help poor farmers combat the invasion of "Fall Armyworms" which are devisating their crops</p>
+	     <div class="text-center" style="margin:25px 0px 0px 0px">
+	     <a class="btn btn-primary btn-sm" target="_blank" href="" role="button">Work In Progress</a>
+	 	 </div>
+	  </div>
+	  <div style="margin: 0px 0px 25px 0px" class="col-md-4">
+	    <h2 class="text-center"> Duck Hunt </h2>
+	    <p> A Basic Space Invaders inspired game with a Duck Hunt theme </p>
+	    <div class="text-center" style="margin:100px 0px 0px 0px">
+	    <a class="btn btn-primary btn-sm" target="_blank" href="https://github.com/branflakes6/Duck-Hunt" role="button">View on GitHub</a>
+		</div>
+	  </div>
+	  <div  style="margin: 0px 0px 25px 0px" class="col-md-4">
+	    <h2 class="text-center"> Postfix and Infix Calculator </h2>
+	    <p> C Program that calculates the result of postfix and infix expressions  </p>
+	    <div class="text-center" style="margin:35px 0px 0px 0px">
+	    <a  class="btn btn-primary btn-sm" target="_blank" href="https://github.com/branflakes6/Calculator" role="button">View on GitHub</a>
+		</div>
+	  </div>
+	</div>
+   </div>
+
+	<div class="container">
+      <div class="row" id="Academics">
         <div class="col-md">
           <h4 class="center">Achieved a First in the following subjects</h4>
-		  <h6 class="center">Intro To Programming</h6>   
-		  <h6 class="center">Introduction To Computing 1 and 2</h6>	    
-		  <h6 class="center">Telecommunications</h6>		    
+		  <h6 class="center">Introduction To Programming</h6>   
+		  <h6 class="center">Introduction To Computing I and II</h6>	    
+		  <h6 class="center">Telecommunications I</h6>		    
 		  <h6 class="center">Digital Logic Design</h6>    
-		  <h6 class="center">Programming Project</h6>  
-		  <p></p>
-		  <p></p>
-		  <p></p>
-		  <p></p>
-		  <p></p>
-		  <p></p>
-		  <p></p>
-		  <p></p>
-		  <p></p>
+		  <h6 class="center">Programming Project</h6> 
+		  <h6 class="center">Telecomuncations II</h6>
+		  <h6 class="center">Information Managment I</h6>		 
 		</div>
+	  </div>
 	</div>
 	
-	<div class="text-center">     
-	<div class="footer">
-      <div>
-        <a class="icon" href="https://github.com/branflakes6/" target="_blank" class="icon"><img src="./img/GitHub-Mark-64px.png" /></a>
-        <a class="icon" href="https://www.linkedin.com/in/brian-farrell-9b9960194/" target="_blank" class="icon"><img src="./img/linkedin.png"/></a>
+<div class="footer" id="Contact">
+ <footer class="page-footer">
+ 	<div class="text-center">
+      <div id="contact">
+        <a class="icon" href="https://github.com/branflakes6/" target="_blank" class="icon" style="margin: 0 25px"><img src="./img/GitHub-Mark-64px.png"/></a>
+      	<a class="icon" href="https://www.linkedin.com/in/brian-farrell-9b9960194/" target="_blank" class="icon" style="margin: 0 25px"><img src="./img/linkedin.png"></a>
       </div>
     </div>
-	</div>
+  </footer>
+</div>
 </body>
 </html>
