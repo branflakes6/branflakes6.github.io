@@ -1,8 +1,15 @@
-
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 .header {
   padding-right: 15px;
   padding-left: 15px;
-  align: center;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.heading {
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 .icon {
   border-radius: 50%;
@@ -11,6 +18,7 @@
   border-radius: 50%; 
   width: 20%;
   height: 10%;
+  border: 1px solid #b8b8b8;
 }
 .footer-img {
   width : 10%;
@@ -38,7 +46,8 @@
   }
 }
 .Projects {
-  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 .jumbotron {
   padding: 30px 25px 25px 25px;
