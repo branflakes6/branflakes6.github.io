@@ -13,10 +13,14 @@
   height: 10%;
 }
 .footer-img {
-  width: 20%;
+  width : 10%;
+}
+.footer-img-p {
+  width: 10%;
   padding-bottom: 5px;
 }
 .icon-text {
+  
   padding-top: 9px;
 }
 .card-deck {
