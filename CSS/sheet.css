@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 .header {
   padding-right: 15px;
@@ -27,6 +27,9 @@ body {
   width: 10%;
   padding-bottom: 5px;
 }
+.work-img {
+  width : 2%;
+}
 .icon-text {
   
   padding-top: 9px;
@@ -46,6 +49,10 @@ body {
   }
 }
 .Projects {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.Work {
   text-align: center;
   padding-bottom: 20px;
 }
